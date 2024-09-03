@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .Container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da tela */
+  
+  }
+  .Calculadora h1{
+    text-align: center ;
+  }
+  
+  .Calculadora .display {
+    width: 100%;
+    background-color: white;
+    padding: 1rem 0rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: right;
+  }
+  
+  .Calculadora {
+    height: 300px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #4facfe, #9b59b6);
+  
+  
+  
+  }
+  
+  
+  .Calculadora tr td button {
+    margin: 1px;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .Calculadora tr td button:active {
+    background-color: #9b59b6;
+  }
